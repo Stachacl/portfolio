@@ -480,7 +480,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -890,7 +890,7 @@ section {
 .services .iconbox-pink:hover .icon i {
   color: #fff;
 }
-
+ 
 .services .iconbox-pink:hover .icon path {
   fill: #e80368;
 }
