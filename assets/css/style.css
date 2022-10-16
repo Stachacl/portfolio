@@ -438,7 +438,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Facts
+# Facts -now Skills
 --------------------------------------------------------------*/
 .facts .count-box {
   padding: 30px 30px 25px 30px;
@@ -478,6 +478,25 @@ section {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
 }
+
+.facts .grayscale {
+  filter: grayscale(50%);
+}
+
+.facts .grayscale:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+  -moz-filter:    grayscale(0%);
+  -ms-filter:     grayscale(0%);
+  -o-filter:      grayscale(0%);
+}
+
+  /* .facts .count-box:hover{
+
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    /* transform: scale(1.1); */
+
+
 
 /*--------------------------------------------------------------
 # skills
