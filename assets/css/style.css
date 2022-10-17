@@ -444,9 +444,15 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Facts -now Skills
+# Skills
 --------------------------------------------------------------*/
-.facts .count-box {
+.row .skills {
+  padding-top: 5px;
+  margin-top: 0px;
+}
+
+
+.skills .count-box {
   padding: 30px 30px 25px 30px;
   margin-top: 30px;
   width: 100%;
@@ -455,7 +461,7 @@ section {
   background: #fff;
 }
 
-.facts .count-box i {
+.skills .count-box i {
   position: absolute;
   top: -25px;
   left: 50%;
@@ -471,25 +477,25 @@ section {
   height: 48px;
 }
 
-.facts .count-box span {
+.skills .count-box span {
   font-size: 36px;
   display: block;
   font-weight: 600;
   color: #011426;
 }
 
-.facts .count-box p {
+.skills .count-box p {
   padding: 0;
   margin: 0;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
 }
 
-.facts .grayscale {
+.skills .grayscale {
   filter: grayscale(25%);
 }
 
-.facts .grayscale:hover {
+.skills .grayscale:hover {
   filter: none;
   -webkit-filter: grayscale(0%);
   -moz-filter:    grayscale(0%);
@@ -506,8 +512,8 @@ section {
 
 /*--------------------------------------------------------------
 # skills
---------------------------------------------------------------*/
-.skills .progress {
+/* --------------------------------------------------------------*/
+/* .skills .progress {
   height: 60px;
   display: block;
   background: none;
@@ -538,7 +544,7 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #0563bb;
-}
+} */
 
 /*--------------------------------------------------------------
 # Resume
@@ -599,7 +605,7 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #0563bb;
-}
+} */
 
 /*--------------------------------------------------------------
 # Portfolio
