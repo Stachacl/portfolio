@@ -5,6 +5,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+
 }
 
 a {
@@ -359,6 +360,11 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+
+   /* Scroll code*/
+/* 
+   scroll-snap-type: y mandatory; */
+
 }
 
 .section-title {
@@ -480,7 +486,7 @@ section {
 }
 
 .facts .grayscale {
-  filter: grayscale(50%);
+  filter: grayscale(25%);
 }
 
 .facts .grayscale:hover {
