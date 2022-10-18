@@ -492,7 +492,7 @@ section {
 }
 
 .skills .grayscale {
-  filter: grayscale(25%);
+  filter: grayscale(45%);
 }
 
 .skills .grayscale:hover {
