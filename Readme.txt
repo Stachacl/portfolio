@@ -15,14 +15,14 @@ Disclaimer: this website is a work in progress...
 
 ## Live Demo
 Please view the result here:
-https://stachacl.github.io/cocktails/
+https://stachacl.github.io/portfolio/
 
 ## General Info
 Website created with the use of Bootstrap template, modified to my needs and added features.
 
 
 
-<img src="">
+<img src="https://ik.imagekit.io/stcl/github/stacha-website-card_5mlNlUyba.png?ik-sdk-version=javascript-1.4.3&updatedAt=1668423625349">
 
 ## Technologies
 Technologies I used for this project:
