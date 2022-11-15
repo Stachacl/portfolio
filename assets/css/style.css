@@ -20,11 +20,16 @@ a:hover {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  color: #0563bb;
+  font-size: 1.5rem 
 }
 
 /*--------------------------------------------------------------
@@ -393,7 +398,7 @@ section {
   left: calc(50% - 60px);
 }
 
-.section-title h2::after {
+/* .section-title h2::after {
   content: "";
   position: absolute;
   display: block;
@@ -402,7 +407,7 @@ section {
   background: #0563bb;
   bottom: 0;
   left: calc(50% - 20px);
-}
+} */
 
 .section-title p {
   margin-bottom: 0;
