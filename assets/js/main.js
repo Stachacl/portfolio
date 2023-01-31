@@ -146,6 +146,11 @@
     });
   }
 
+  setTimeout(() => {
+    document.querySelector('.typed-cursor').style.opacity = '0';
+  }, 5000);
+	 
+
   /**
    * Skills animation
    */

@@ -442,6 +442,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	      this.cursorBlinking = isBlinking;
 	      if (isBlinking) {
 	        this.cursor.classList.add('typed-cursor--blink');
+			setTimeout(() => {
+				// this.cursor.setAttribute('style', 'opacity: 0 !important');
+				this.cursor = null;
+			}, 5000);
 	      } else {
 	        this.cursor.classList.remove('typed-cursor--blink');
 	      }
@@ -548,13 +552,29 @@ return /******/ (function(modules) { // webpackBootstrap
 	    key: 'insertCursor',
 	    value: function insertCursor() {
 	      if (!this.showCursor) return;
+		  setTimeout(() => {
+			this.showCursor = false;
+			}, 5000);
 	      if (this.cursor) return;
 	      this.cursor = document.createElement('span');
 	      this.cursor.className = 'typed-cursor';
 	      this.cursor.setAttribute('aria-hidden', true);
 	      this.cursor.innerHTML = this.cursorChar;
 	      this.el.parentNode && this.el.parentNode.insertBefore(this.cursor, this.el.nextSibling);
+
+		//   setTimeout(() => {
+		//   this.cursor.className = ('opacity: 0 !important');
+		//   }, 5000);
+
+		//   setTimeout(() => {
+		// 	this.cursor.setAttribute('style', 'opacity: 0 !important');
+		// }, 5000);
+
+		//   setTimeout(() => {
+		// 	this.cursor = null;
+		// }, 5000);
 	    }
+		
 	  }]);
 	
 	  return Typed;
@@ -766,7 +786,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        innerCss += '\n        .typed-fade-out{\n          opacity: 0;\n          transition: opacity .25s;\n        }\n        .typed-cursor.typed-cursor--blink.typed-fade-out{\n          -webkit-animation: 0;\n          animation: 0;\n        }\n      ';
 	      }
 	      if (css.length === 0) {
-	        return;
+	        return;self.fadeOut
 	      }
 	      css.innerHTML = innerCss;
 	      document.body.appendChild(css);
@@ -855,6 +875,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	   * @property {boolean} autoInsertCss insert CSS for cursor and fadeOut into HTML <head>
 	   */
 	  showCursor: true,
+	  
 	  cursorChar: '|',
 	  autoInsertCss: true,
 	
