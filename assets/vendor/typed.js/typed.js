@@ -552,9 +552,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    key: 'insertCursor',
 	    value: function insertCursor() {
 	      if (!this.showCursor) return;
-		  setTimeout(() => {
-			this.showCursor = false;
-			}, 5000);
+		//   setTimeout(() => {
+		// 	this.showCursor = false;
+		// 	}, 5000);
 	      if (this.cursor) return;
 	      this.cursor = document.createElement('span');
 	      this.cursor.className = 'typed-cursor';
