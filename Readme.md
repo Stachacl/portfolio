@@ -1,4 +1,4 @@
-Disclaimer: this website is a work in progress...
+Disclaimer: this website was last updated in April 2023
 
 # My portfolio website
 
